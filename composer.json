@@ -1,0 +1,27 @@
+{
+    "name": "steinm6/laravel-translate",
+    "description": "A laravel package for po-files using Zend\\I18n\\Translator\\Translator",
+    "license": "BSD-3-Clause",
+    "keywords": ["laravel", "i18n", "po", "gettext"],
+    "authors": [
+        {
+            "name": "Matthias Stein",
+            "email": "info@steinm.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "zendframework/zend-i18n": "2.3.*@dev",
+        "zendframework/zend-servicemanager": "2.3.*@dev"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Steinm6\\LaravelTranslate\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
